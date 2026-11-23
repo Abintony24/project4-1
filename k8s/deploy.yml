@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: project4-deployment
-  namespace: project4
+  namespace: project4-1
 spec:
   replicas: 2
   selector:
@@ -38,7 +38,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mysql-deployment
-  namespace: project4
+  namespace: project4-1
 spec:
   replicas: 1
   selector:
